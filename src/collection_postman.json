@@ -1,0 +1,105 @@
+{
+  "info": {
+    "_postman_id": "fc7bae4d-c50f-4466-9408-c6ca1bbf67af",
+    "name": "MC714",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "24508613"
+  },
+  "item": [
+    {
+      "name": "leader-election",
+      "item": [
+        {
+          "name": "leader 9121",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:9121/leader",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "9121",
+              "path": ["leader"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "leader 9122",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:9122/leader",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "9122",
+              "path": ["leader"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "leader 9123",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:9123/leader",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "9123",
+              "path": ["leader"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "leader 9124",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:9124/leader",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "9124",
+              "path": ["leader"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "leader 9125",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:9125/leader",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "9125",
+              "path": ["leader"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "send-election",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:9121/send-election",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "9121",
+              "path": ["send-election"]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}
